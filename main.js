@@ -11,3 +11,7 @@ if (numero > numeroCasuale) {
 else {
   console.log('hai perso');
 }
+
+if (numero > 6) {
+  console.log('non barare, il numero deve essere da 1 a 6!');
+}
