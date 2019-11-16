@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.tavolo-dadi {
+  background-image: url('https://casino.superscommesse.it/wp-content/uploads/2017/04/dadi-gioco.jpg');
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#vinci-perdi {
+  color: white;
+  font-size: 50px;
+}
+
+#vinci-img, #perdi-img, #pareggia-img, #baro-img {
+  display: none;
+}
+
+#vinci-img.visible {
+  display: block;
+}
+
+#perdi-img.visible {
+  display: block;
+}
+
+#pareggia-img.visible {
+  display: block;
+}
+
+#baro-img.visible {
+  display: block;
+}
