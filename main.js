@@ -5,7 +5,7 @@ console.log(numeroCasuale);
 var numero = prompt('digita un numero tra 1 e 6');
 console.log(numero);
 //Stampare un messaggio per dire all'utente se ha vinto oppure no (il numero più alto vince).
-if (numero > numeroCasuale) {
+if (numero > numeroCasuale && numero < 7) {
   console.log('hai vinto'); //Se il numero digitato è più alto del numero casuale
   document.getElementById('vinci-perdi').innerHTML = ('BRAVO HAI VINTO!!!');
   document.getElementById('vinci-img').setAttribute('class','visible');
