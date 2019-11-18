@@ -26,3 +26,8 @@ if (numero == numeroCasuale) { //se il numero digitato è pari al numero casuale
   document.getElementById('vinci-perdi').innerHTML = ('PAREGGIO');
   document.getElementById('pareggia-img').setAttribute('class','visible');
 }
+
+// if isNaN(numero) {
+//   document.getElementById('vinci-perdi').innerHTML = ('Non hai digitato un numero...');
+// }
+//COME FACCIO A FAR SI CHE SE L'UTENTE NON DIGITA UN NUMERO, MI STAMPA QUALCOSA???
