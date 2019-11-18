@@ -17,7 +17,7 @@
   font-size: 50px;
 }
 
-#vinci-img, #perdi-img, #pareggia-img, #baro-img {
+#vinci-img, #perdi-img, #pareggia-img, #baro-img, #no-numero-img {
   display: none;
 }
 
@@ -34,5 +34,9 @@
 }
 
 #baro-img.visible {
+  display: block;
+}
+
+#no-numero-img.visible {
   display: block;
 }

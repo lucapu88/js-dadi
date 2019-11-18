@@ -2,7 +2,7 @@
 var numeroCasuale = Math.floor((Math.random() * 6) + 1);
 console.log(numeroCasuale);
 //Attraverso un prompt chiedere all'utente un numero tra 1 e 6.
-var numero = prompt('digita un numero tra 1 e 6');
+var numero = parseInt(prompt('digita un numero tra 1 e 6'));
 console.log(numero);
 //Stampare un messaggio per dire all'utente se ha vinto oppure no (il numero più alto vince).
 if (numero > numeroCasuale && numero < 7) {
@@ -27,7 +27,7 @@ if (numero == numeroCasuale) { //se il numero digitato è pari al numero casuale
   document.getElementById('pareggia-img').setAttribute('class','visible');
 }
 
-// if isNaN(numero) {
-//   document.getElementById('vinci-perdi').innerHTML = ('Non hai digitato un numero...');
-// }
-//COME FACCIO A FAR SI CHE SE L'UTENTE NON DIGITA UN NUMERO, MI STAMPA QUALCOSA???
+if (isNaN(numero)) {
+  document.getElementById('vinci-perdi').innerHTML = ('Non hai digitato un numero...');
+  document.getElementById('no-numero-img').setAttribute('class','visible');
+}
